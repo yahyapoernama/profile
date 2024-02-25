@@ -1137,6 +1137,15 @@ section {
   background: #0678e3;
 }
 
+.contact .php-email-form button[type=submit]:disabled {
+  background: #91c3f2;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1205,4 +1214,8 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.text-justify {
+  text-align: justify;
 }
